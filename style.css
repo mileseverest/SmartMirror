@@ -1,0 +1,110 @@
+
+/* BASIC*/
+* {
+	margin: 0;
+	padding: 0;
+}
+	
+body {
+	background: #000;
+	color: #fff;
+}
+
+/* LAYOUT */
+	/* The width and height of "wrapper", "upper-left", "upper-right"
+	and "bottom" needs to be changed in order to match your monitor's resolution */
+#wrapper {          
+    position: fixed;
+	top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+	margin: 500 0;
+}
+
+	#upper-left {
+		position: absolute;
+		width: 50%;
+		left: 0px;
+		top: 25px;
+		margin: 50px 50px 0 0;
+		height: 25%;	
+		float: left;
+		text-align: center;
+	}
+	
+	#upper-right {
+		position: absolute;
+		top: 25px;
+		margin: 50px 50px 0 0;
+		right: 0px;
+		width: 50%;
+		height: 100px;
+		text-align: center;
+	}
+	
+	#travel {
+	position: absolute;
+	right: 0;
+  	top: 30%;
+  	left: 0;
+  	padding: 1rem;
+  	text-align: center;
+	}
+
+	#bottom {
+	position: absolute;
+ 	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+  	text-align: center;
+	}
+	
+
+/* TEXT */
+h1 {
+	display:inline;
+	font-family: 'Roboto', sans-serif;
+	font-size: 102px;
+	font-weight: 300;
+	line-height: 102px;
+	}
+
+h11 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 52px;
+	font-weight: 300;
+	line-height: 102px;
+	}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	font-weight: 300;
+	}
+	
+h2.smaller {
+	font-size: 22px;
+	letter-spacing: 1px;
+	}	
+	
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 42px;
+	font-weight: 300;
+	padding: 20px 0 0 0;
+	}
+	
+Weather {
+	font-family: 'Roboto', sans-serif;
+	font-size: 102px;
+	font-weight: 300;
+	}	
+
+Weather2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+}
+	
